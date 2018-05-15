@@ -1,23 +1,20 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>濤声依旧</title>
-    <meta name="Keywords"
-          content="濤声依旧,陶涛的主页,陶涛的博客,陶涛CSDN,AndPermission,Album,SwipeRecyclerView,AndServer"/>
-    <meta name="Description"
-          content="热爱科学，热爱生活，我是涛儿！"/>
-</head>
-<body>
+---
+layout: default
+---
 
-<div class="beian-height" style="width:300px;margin:0 auto;padding: 20px 0;" align="center">
-	<p class="beian-height beian-color" style="width:180px;margin:0 auto;" align="center">个人主页设计中...</p>
-    <a class="beian-a" target="_blank" href="https://github.com/taotao568685">
-        <img src="https://avatars3.githubusercontent.com/u/6822663?s=460&v=4" width="60" height="60" style="float:left;"/>
-        <p class="beian-color" style="float:left;margin: 0px 5px;">taotao568685的github</p>
-    </a>
+<div class="main-post-list hidden">
+
+  <ol class="post-list">
+    {% for post in paginator.posts %}
+    <li>
+      <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
+      <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
+      <div class="post-list__meta"><time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">{{ post.date | date: "%F"}}</time> &#8226; <span class="post-list__meta--tags tags">{{ post.tags | join:' ' }}</span><a class="btn-border-small" href={{ post.url }}>继续阅读</a></div>
+      <hr class="post-list__divider" />
+    </li>
+    {% endfor %}
+  </ol>
+
+  {% include pagination.html %}
+
 </div>
-</body>
-</html>
-
