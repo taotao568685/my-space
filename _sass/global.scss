@@ -19,11 +19,11 @@ body {
 }
 
 ::selection {
-  background: lighten($primary-color, 30%);
+  background: lighten($primary-color, 25%);
 }
 
 ::-moz-selection {
-  background: lighten($primary-color, 30%);
+  background: lighten($primary-color, 25%);
 }
 
 // ------------------------------
