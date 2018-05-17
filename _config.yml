@@ -21,10 +21,6 @@ blog_button:
     description: Visit blog、
     
 
-blog_button:
-    title: Renju
-    description: Visit renju
-
 # Navigation buttons in the front page.
 nav:
     
