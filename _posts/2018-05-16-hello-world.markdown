@@ -1,45 +1,18 @@
 ---
 layout: post
-title: 我的第一篇博客
+title: My first Blog
 date: 2018-05-16 15:32:24.000000000 +09:00
 ---
 
 #### What's this
 这是我的第一篇博客，这个博客的主题修改自[Vno Jekyll](https://github.com/onevcat/vno-jekyll). 感谢Onevcat为我们提供了这一模板。
+#### Modification
+在原版Vno-Jekyll的基础上，我修改了配色和字体，配色在`\_sass\variables.scss`中可以通过增加颜色方案实现，也可以在`\_sass\global.scss`中通过调整色深度来实现。修改了标题样式和字体。
+#### Other Problems
+在 Windows 8.1 系统中运行 Git 客户端以及运行 Ruby 遇到了一个小问题：执行`bundle exec jekyll serve`出现 *Invalid GBK character "\xE5"* 参考了[这篇文章](https://www.smslit.top/2015/10/09/JekyllServeInvalidGBK-jekyll/)得以解决。
 
-先暂时写这么多，其他内容以后慢慢观察如何修改。
-#### Usage
-
-```bash
-$ git clone https://github.com/onevcat/vno-jekyll.git your_site
-$ cd your_site
-$ bundler install
-$ bundler exec jekyll serve
-```
-
-Your site with `Vno Jekyll` enabled should be accessible in http://127.0.0.1:4000.
-
-For more information about Jekyll, please visit [Jekyll's site](http://jekyllrb.com).
-
-#### Configuration
-
-All configuration could be done in `_config.yml`. Remember you need to restart to serve the page when after changing the config file. Everything in the config file should be self-explanatory.
-
-#### Background image and avatar
-
-You could replace the background and avatar image in `assets/images` folder to change them.
-
-#### Sites using Vno
-
-[My blog](http://onevcat.com) is using `Vno Jekyll` as well, you could see how it works in real. There are some other sites using the same theme. You can find them below:
-
-| Site Name    | URL                                                |
-| ------------ | ---------------------------------------------------|
-| OneV's Den   | [http://onevcat.com](http://onevcat.com)           |
-| July Tang    | [http://blog.julytang.xyz](http://onevcat.com)     |
-| Harry Lee    | [http://qiuqi.li](http://qiuqi.li)                 |
-
-> If you happen to be using this theme, welcome to [send me a pull request](https://github.com/onevcat/vno-jekyll/pulls) to add your site link here. :)
+#### Special thanks
+感谢[Wind23](www.wind23.com)为我提供的技术帮助。
 
 #### License
 

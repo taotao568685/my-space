@@ -14,7 +14,7 @@ html {
 body {
   font-family: $sans-font;
   font-size: 1em;
-  color: $gray-darker;
+  color: $gray-darkest;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -54,35 +54,42 @@ h5 {
   margin-bottom: .5em;
   font-family: $serif-font;
   font-weight: lighter;
-  color: $gray-darkest;
+  color: #092fc4;
   -webkit-font-smoothing: antialiased;
 }
 
 h1 {
+  text-align: center;
   margin-top: 0;
-  font-size: 2.5em;
+  font-size: 2.3em;
   line-height: 1.2em;
   letter-spacing: .05em;
+  font-family: "Georgia","Kaiti","DFKai-SB";
+  color: #0020a2; 
 }
 
 h2 {
-  font-size: 2.0em;
+  font-size: 1.8em;
+  font-family: "Georgia","Kaiti","DFKai-SB";
+  color: #480096;
 }
 
 h3 {
-  font-size: 1.6em;
+  font-size: 1.5em;
+  font-family: "Georgia","Kaiti","DFKai-SB";
+  color: #116012;
 }
 
 h4 {
   font-size: 1.2em;
+  font-family: "Georgia","Kaiti","DFKai-SB";
+  color: #0b3fa5;
 }
 
-h4 {
-  font-size: 1.1em;
-}
 
 h5 {
   font-size: 1em;
+  color: #2c187c;
 }
 
 p {
@@ -144,7 +151,7 @@ ul {
 
 code {
   padding: .1em .4em;
-  background: lighten($secondary-color, 32%);
+  background: lighten($secondary-color, 18%);
   border: 1px solid lighten($secondary-color, 25%);
   border-radius: $border-radius;
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
@@ -176,7 +183,7 @@ pre {
 
 table {
   color: $gray-darkest;
-  font-size: .9em;
+  font-size: 1em;
   text-align: center;
   line-height: 40px;
   border-spacing: 0;
@@ -186,7 +193,7 @@ table {
 }
 
 thead tr:first-child {
-  background-color: darken($primary-color, 10%);
+  background-color: lighten($primary-color, 8%);
   color: $gray-lightest;
   border: none;
 }
