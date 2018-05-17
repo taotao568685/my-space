@@ -19,11 +19,11 @@ body {
 }
 
 ::selection {
-  background: darken($primary-color, 18%);
+  background: lighten($primary-color, 15%);
 }
 
 ::-moz-selection {
-  background: lighten($primary-color, 36%);
+  background: lighten($primary-color, 15%);
 }
 
 // ------------------------------
@@ -144,7 +144,7 @@ ul {
 
 code {
   padding: .1em .4em;
-  background: lighten($secondary-color, 12%);
+  background: lighten($secondary-color, 32%);
   border: 1px solid lighten($secondary-color, 25%);
   border-radius: $border-radius;
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
@@ -156,7 +156,7 @@ code {
 pre {
   margin-bottom: 1.3em;
   padding: 1em 2.5%;
-  background: lighten($secondary-color, 12%);
+  background: lighten($secondary-color, 32%);
   border: 1px solid lighten($secondary-color, 25%);
   border-radius: $border-radius;
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
