@@ -18,7 +18,12 @@ cover_color:
 # The blog button should not be removed.
 blog_button:
     title: Blog
-    description: Visit blog
+    description: Visit blog、
+    
+
+blog_button:
+    title: Renju
+    description: Visit renju
 
 # Navigation buttons in the front page.
 nav:
