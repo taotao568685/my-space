@@ -1,7 +1,7 @@
 # Basic
 title: 濤声依旧
 subtitle: 面朝大海，春暖花开
-welcome_message: <!--<a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>-->
+welcome_message: 友情链接：<a href="https://www.wind23.com" target="_blank">Wind23</a>
 description: 涛儿的心灵休憩小站
 creator: <a href="http://onev.cat">@onevcat</a>
 
@@ -18,7 +18,7 @@ cover_color:
 # The blog button should not be removed.
 blog_button:
     title: Blog
-    description: Visit blog、
+    description: Visit blog
     
 
 # Navigation buttons in the front page.
