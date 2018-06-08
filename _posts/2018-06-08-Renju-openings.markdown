@@ -15,7 +15,7 @@ Soosyrv-8 rule has been chosen as World Championship rule since 2017.
 > After the opening stage the game continues by renju rule.    
 
 To continue...
-![Test][A1 "Let's Test"]
+![Test][A1]
 
 [A1]:data:img/jpg;base64,
 iVBORw0KGgoAAAANSUhEUgAAAIQAAACsCAYAAAC6uwT8AAAL+klEQVR4nO2de3CU1RmHf5ssBMIl
